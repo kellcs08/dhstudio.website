@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DH STUDIO COMPANY - Beyond Ordinary Visuals. Film, post-production, VFX, motion, photography, live production and creative design.">
+  <title>DH STUDIO COMPANY - Beyond Ordinary Visuals</title>
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <div class="app-container">
+    <!-- SIDEBAR NAVIGATION -->
+    <aside class="sidebar" id="mainNav">
+      <div class="sidebar-header">
+        <a class="logo" href="#home" aria-label="DH STUDIO">
+          <img src="Logo.png" alt="DH Studio" class="sidebar-logo-img">
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Close menu">&times;</button>
+      </div>
+
+      <nav class="side-menu">
+        <a href="#home" class="active"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#showreel"><i class="fa-solid fa-play"></i> Showreel</a>
+        <a href="#work"><i class="fa-solid fa-film"></i> Selected Work</a>
+        <a href="#services"><i class="fa-solid fa-photo-film"></i> Video Library</a>
+        <a href="#packages"><i class="fa-solid fa-box-archive"></i> Packages</a>
+        <a href="#about"><i class="fa-solid fa-circle-info"></i> About</a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <a href="#contact" class="sidebar-cta"><i class="fa-solid fa-calendar-days"></i> Start a Project</a>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="main-content">
+      
+      <!-- TOP SEARCH & ACTION BAR -->
+      <header class="top-bar">
+        <button class="menu-toggle-mobile" id="mobileMenuBtn" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="studioSearch" placeholder="Search films, VFX, commercial projects...">
+        </div>
+        <div class="top-actions">
+          <a href="https://wa.me/256706576021" target="_blank" class="btn-whatsapp-top">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp Chat
+          </a>
+        </div>
+      </header>
+
+      <!-- HERO BANNER -->
+      <section class="hero-carousel" id="home">
+        <video autoplay loop muted playsinline preload="auto" class="hero-video-bg">
+          <source src="showreel-loop.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+          <span class="badge">CREATIVE PRODUCTION • POST-PRODUCTION • LIVE</span>
+          <h1>Film. Motion. VFX.<br>Complete Creative Solutions.</h1>
+          <p class="hero-copy">
+            DH Studio company transforms raw vision into professional cinema, high-impact commercial ads, dynamic VFX, and complete live productions.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="button button-primary"><i class="fa-solid fa-calendar-days"></i> Start Your Project</a>
+            <a href="#showreel" id="openShowreelBtn" class="button button-ghost"><i class="fa-solid fa-play"></i> Watch Showreel</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURED WORK ROW -->
+      <section class="media-row" id="work">
+        <div class="row-header">
+          <div class="row-title">
+            <span class="section-label">01 / FEATURED CINEMA</span>
+            <h2>Selected Youtube Works</h2>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project youtube-card">
+            <div class="project-video-wrapper">
+              <iframe 
+                src="https://www.youtube.com/embed/Gosqln3jHWY?enablejsapi=1&rel=0" 
+                title="Doctor Alex — Short Film" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Doctor Alex</h3>
+                <p>168 Film Festival Nominated • Production & Post</p>
+              </div>
+              <span>2025</span>
+            </div>
+          </article>
+
+          <article class="project youtube-card">
+            <div class="project-video-wrapper">
+              <iframe 
+                src="https://www.youtube.com/embed/3EjX90WHic8?enablejsapi=1&rel=0" 
+                title="Be Careful — Short Film" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Be Careful</h3>
+                <p>Short Film • Cinematography & Sound</p>
+              </div>
+              <span>DRAMA</span>
+            </div>
+          </article>
+
+          <article class="project youtube-card">
+            <div class="project-video-wrapper">
+              <iframe 
+                src="https://www.youtube.com/embed/TazyUk3pgVk?enablejsapi=1&rel=0" 
+                title="Helpline — Short Movie" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Helpline</h3>
+                <p>Short Movie • Screenplay, Directing & Sound</p>
+              </div>
+              <span>CINEMA</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SHOWREEL SECTION -->
+      <section class="showreel-section section" id="showreel">
+        <div class="section-label">DH STUDIO SHOWREEL</div>
+        <h2>Experience The Craft</h2>
+        <p class="section-desc">A glance into our camera, cutting, color grading, and VFX capability.</p>
+        
+        <div class="showreel-container">
+          <div class="showreel-player-card">
+            <a href="#showreel" id="cardPlayBtn" class="showreel-play-button-wrap" aria-label="Play Showreel">
+              <div class="play-icon-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <span class="showreel-title-tag">2026 DH SHOWREEL REEL</span>
+              <span class="showreel-sub-tag">Producers Commercial • Post-Production • Live Production Pipeline</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEO GALLERY WITH CATEGORY FILTERS -->
+      <section class="media-row" id="services">
+        <div class="row-header">
+          <div class="row-title">
+            <span class="section-label">02 / STUDIO LIBRARY</span>
+            <h2>Film, Motion & Production Scenes</h2>
+          </div>
+        </div>
+
+        <!-- FILTER BUTTONS -->
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All Scenes</button>
+          <button class="filter-btn" data-filter="vfx">VFX & Motion</button>
+          <button class="filter-btn" data-filter="drama">Drama & Film</button>
+          <button class="filter-btn" data-filter="commercial">Commercial</button>
+          <button class="filter-btn" data-filter="editing">Post & Editing</button>
+        </div>
+        
+        <div class="service-grid">
+          <article class="service-card service-card-video" data-category="drama">
+            <span class="service-number">01</span>
+            <h3>Film & Video Scene 1</h3>
+            <div class="card-video-wrapper">
+              <video controls preload="metadata" playsinline>
+                <source src="film-video.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p>Cinematic production, camera work, and narrative direction.</p>
+          </article>
+
+          <article class="service-card service-card-video" data-category="editing">
+            <span class="service-number">02</span>
+            <h3>Film & Video Scene 2</h3>
+            <div class="card-video-wrapper">
+              <video controls preload="metadata" playsinline>
+                <source src="film-video (2).mp4" type="video/mp4">
+              </video>
+            </div>
+            <p>Post-production, editing pipeline, and master cutting.</p>
+          </article>
+
+          <article class="service-card service-card-video" data-category="vfx">
+            <span class="service-number">03</span>
+            <h3>Film & Video Scene 3</h3>
+            <div class="card-video-wrapper">
+              <video controls preload="metadata" playsinline>
+                <source src="film-video (3).mp4" type="video/mp4">
+              </video>
+            </div>
+            <p>Visual effects, compositing, and motion graphics.</p>
+          </article>
+
+          <article class="service-card service-card-video" data-category="commercial">
+            <span class="service-number">04</span>
+            <h3>Film & Video Scene 4</h3>
+            <div class="card-video-wrapper">
+              <video controls preload="metadata" playsinline>
+                <source src="film-video (4).mp4" type="video/mp4">
+              </video>
+            </div>
+            <p>Commercial advertising & branded content showcase.</p>
+          </article>
+
+          <article class="service-card service-card-video" data-category="drama">
+            <span class="service-number">05</span>
+            <h3>Film & Video Scene 5</h3>
+            <div class="card-video-wrapper">
+              <video controls preload="metadata" playsinline>
+                <source src="film-video (5).mp4" type="video/mp4">
+              </video>
+            </div>
+            <p>Dramatic scene production & actor direction.</p>
+          </article>
+
+          <article class="service-card service-card-video" data-category="editing">
+            <span class="service-number">06</span>
+            <h3>Film & Video Scene 6</h3>
+            <div class="card-video-wrapper">
+              <video controls preload="metadata" playsinline>
+                <source src="film-video (6).mp4" type="video/mp4">
+              </video>
+            </div>
+            <p>Color grading passes & cinematic lighting balance.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- PACKAGES SECTION -->
+      <section class="packages-section section" id="packages">
+        <div class="section-label">03 / PRODUCTION PACKAGES</div>
+        <h2>Tailored Solutions</h2>
+        
+        <div class="packages-grid">
+          <div class="package-card">
+            <h3>Post-Production & Editing</h3>
+            <p>Full editing pipeline, sound design, color grading, and title design for short films or commercials.</p>
+            <a href="#contact" class="button button-ghost full-width">Inquire Package</a>
+          </div>
+
+          <div class="package-card featured">
+            <span class="package-badge">POPULAR</span>
+            <h3>Full Film Production</h3>
+            <p>End-to-end production: Scriptwriting, cinematography, lighting, sound capture, and post-production finishing.</p>
+            <a href="#contact" class="button button-primary full-width">Book Production</a>
+          </div>
+
+          <div class="package-card">
+            <h3>Live Streaming & Events</h3>
+            <p>Multi-camera live switching, real-time broadcast audio, event recording, and live streaming setup.</p>
+            <a href="#contact" class="button button-ghost full-width">Get Quote</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about-section section" id="about">
+        <div class="section-label">04 / ABOUT US</div>
+        <h2>Beyond Ordinary Visuals</h2>
+        <p class="about-text">
+          DH Studio Company is a premier creative unit specializing in filmmaking, post-production, color grading, visual effects, dynamic motion graphics, and live event production. We turn raw concepts into broadcast-ready cinema.
+        </p>
+      </section>
+
+      <!-- BOOKING / CONTACT SECTION -->
+      <section class="booking section" id="contact">
+        <div class="booking-grid">
+          <div class="booking-intro">
+            <div class="section-label">05 / GET IN TOUCH</div>
+            <h2>Let's build<br>something.</h2>
+            <p>Ready to start your film, post-production or streaming project? Fill out the form below.</p>
+            <div class="contact-info">
+              <div>
+                <small>DIRECT EMAIL</small><br>
+                <a href="mailto:hello@DHstudiocompany.com">hello@DHstudiocompany.com</a>
+              </div>
+              <div>
+                <small>WHATSAPP CHAT</small><br>
+                <a href="https://wa.me/256706576021" target="_blank">+256 706576021 ↗</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="booking-form-wrapper">
+            <form action="https://api.web3forms.com/submit" method="POST" id="bookingForm" class="booking-form">
+              <input type="hidden" name="apikey" value="a93ca861-e900-4179-8869-14683480a285">
+
+              <div class="form-group">
+                <label for="clientName">Your Name / Organization *</label>
+                <input type="text" id="clientName" name="name" required placeholder="e.g. John Doe">
+              </div>
+
+              <div class="form-group">
+                <label for="clientPhone">Phone / WhatsApp Number *</label>
+                <input type="text" id="clientPhone" name="phone" required placeholder="e.g. +256...">
+              </div>
+
+              <div class="form-group">
+                <label for="projectDetails">Project Brief & Details *</label>
+                <textarea id="projectDetails" name="message" rows="4" required placeholder="Describe your vision, timeline, and goals..."></textarea>
+              </div>
+
+              <button type="submit" class="button button-primary booking-button">
+                <i class="fa-brands fa-whatsapp"></i> Send Booking Request
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>© 2026 DH Studio company Film. Photography. Motion. VFX. Animation. Editing. Color. Sound. Streaming.</span>
+      </footer>
+    </main>
+  </div>
+
+  <!-- POP-UP VIDEO MODAL -->
+  <div class="video-modal" id="videoModal">
+    <div class="modal-content">
+      <button class="close-modal" id="closeModal">&times;</button>
+      <div class="iframe-container">
+        <iframe id="showreelIframe" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
